@@ -69,6 +69,7 @@
             height: 50%;
             width: 250%;
             margin-top: 15%;
+            border-radius: 10px;
         }
         button{
             background: none;
@@ -178,6 +179,11 @@
        .contct{
         background-color: rgb(0, 208, 255);
        }
+       .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+       }
        .p9{
         margin-top: 5px;
        }
@@ -218,7 +224,40 @@
        .skills{
         margin-top: 20px;
        }
-    
+       .ldiv{
+        display: flex;
+       }
+       .Birth{
+        display: flex;
+        gap:50px;
+       }
+       .Gender_ldiv{
+        display: flex;
+        gap:60px;
+       }
+       .Site-ldiv{
+        display: flex;
+        gap:85px;
+       }
+       .mail_ldiv{
+        display: flex;
+        gap:60px;
+       }
+       .address_ldiv{
+        display: flex;
+        gap:47px;
+       }
+       .phone_ldiv{
+        display: flex;
+        gap:60px;
+       }
+       .p15{
+        font-size: larger;
+        font-weight: bold;
+       }
+       .p16{
+        color: aqua;
+       }
     </style>
 </head>
 <body>
@@ -304,40 +343,47 @@
               <p class="p12">Contact Information</p>
           </div>
           <div class="contacts">
-              <div class="phone">
-                <p>Phone:</p>
-                <p>+1 123 456 7890</p>
+              <div class="phone_ldiv">
+                <p class="p15">Phone:</p>
+                <p class="p16">+1 123 456 7890</p>
+                <br>
+                <br>
               </div>
-              <div class="address">
-                  <p>Address:</p>
+              <div class="address_ldiv">
+                  <p class="p15">Address:</p>
                   <p>New York</p>
               </div>
-              <div class="mail">
-                  <p>E-mail:</p>
-                  <p>hello@dwayn.com</p>
+              <br>
+              <br>
+              <div class="mail_ldiv">
+                  <p class="p15">E-mail:</p>
+                  <p class="p16">hello@dwayn.com</p>
 
               </div>
-              <div class="Site">
-                  <p>Site</p>
-                  <p>www.therock.com</p>
+              <br>
+              <br>
+              <div class="Site-ldiv">
+
+                  <p class="p15">Site:</p>
+                  <p class="p16">www.therock.com</p>
 
               </div>
           </div>
           <div class="basic">
               <p class="p12">Basic Information</p>
           </div>
-          <div class="basics">
+          <div class="basics ldiv">
               <div class="Birth">
-                 <p>Birthday:</p>
+
+                 <p class="p15">Birthday:</p>
                  <p>June 5, 1992</p>
               </div>
-              <div class="Gender">
-                  <p>Gender:</p>
-                  <p>Male</p>
-
-              </div>
           </div>
+          <div class="Gender_ldiv">
+            <p class="p15">Gender:</p>
+            <p>Male</p>
 
+        </div>
         </div>
     </div>
 </body>
